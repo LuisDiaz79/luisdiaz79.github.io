@@ -70,6 +70,10 @@ button:hover{
     color: #5E7F7E;
     font-weight: bold;
 }
+button:active{
+    background-color: #fff;
+    color: #5E7F7E;
+}
 .maintitle{
     background-color: #4aaaa5;
     width: 140px;
@@ -79,11 +83,12 @@ button:hover{
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
+    text-align: center;
 }
 .opts{
     float: right;
     padding: 10px;
-    margin-right: 10%;
+    margin-right: 20%;
     margin-top: 40px;
     width: 255px;
 }
